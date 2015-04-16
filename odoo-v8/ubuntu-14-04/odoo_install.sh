@@ -59,6 +59,7 @@ sudo apt-get install python-dateutil python-feedparser python-ldap python-libxsl
 	
 echo -e "\n---- Install python libraries ----"
 sudo pip install gdata
+sudo pip install pysftp
 
 echo -e "\n---- Install wkhtml and place on correct place for ODOO 8 ----"
 sudo wget http://downloads.sourceforge.net/project/wkhtmltopdf/archive/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
